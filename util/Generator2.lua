@@ -3,19 +3,22 @@ require 'nn'
 require 'nngraph'
 require 'util.OneHot'
 
-local M = {}
 
 local protos
 local ivocab
 local current_state
 local state_size
-local seed_text = "----------\n"
+local seed_text = "ENDCARD\n"
 local prediction
+
+local M = {}
 
 function M.start(model, seed)
     ivocab = {}
     current_state = {}
-    torch.manualSeed(seed)
+    if seed then
+        torch.manualSeed(seed)
+    end
     local checkpoint = torch.load(model)
     protos = checkpoint.protos
 
@@ -44,11 +47,11 @@ function M.start(model, seed)
     end
 end
 
-function M.generate(size)
+function M.generate(size, temperature)
     local novel_content = ""
     for i=1, size do
         -- use sampling
-        prediction:div(0.6) -- scale by temperature
+        prediction:div(temperature) -- scale by temperature
         local probs = torch.exp(prediction):squeeze()
         probs:div(torch.sum(probs)) -- renormalize so probs sum to one
         -- ngx.log(ngx.ERR, tostring(probs:float()))
@@ -63,6 +66,18 @@ function M.generate(size)
         novel_content = novel_content .. ivocab[prev_char[1]]
     end
     return novel_content
+end
+
+local whole_card = "\n(%{.*%})\n"
+
+function M.card(temperature)
+    local card = ""
+    while not string.match(card, whole_card) do
+      card = card .. M.generate(30, temperature)
+    end
+    card = card:match(whole_card)
+    local name = card:match('"name": "(.-)",')
+    return card:gsub("~", name)
 end
 
 return M

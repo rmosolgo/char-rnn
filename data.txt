@@ -1,8 +1,246 @@
-
-Temul of Lifes
-
-{3}{B} (4; Black)
-
-Sorcery 
-
-Target player draws an additional 
+ "Nyczethha Haven"
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Horn of the Saility",
+  "cost": "{2}{W}",
+  "cmc": 3,
+  "colors": [
+    "White"
+  ],
+  "power": "1",
+  "toughness": "1",
+  "rarity": "Uncommon",
+  "type": "Creature - Spirit",
+  "text": "{T}: ~ deals 1 damage to target creature or player.",
+  "flavor": ""
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Heller Saor",
+  "cost": "{2}{B}",
+  "cmc": 3,
+  "colors": [
+    "Black"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "rarity": "Uncommon",
+  "type": "Creature - Goblin Warrior",
+  "text": "{T}: Put a tide counter on ~.\n• Target creature gets -2/-2 until end of turn.",
+  "flavor": ""
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Oend Meval",
+  "cost": "{2}",
+  "cmc": 2,
+  "colors": "Colorless",
+  "power": null,
+  "toughness": null,
+  "rarity": "Uncommon",
+  "type": "Sorcery",
+  "text": "Each player sacrifices all attacking creature. It can't be regenerated.",
+  "flavor": "\"Strength mage has not even the curse with fire is each battle the first of survivality. We see the angel of a to part of mortal survive and attacks, they be freedom and the forest about with a fires of the enemy walls the flesh of the scast and for marny."
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Swamp",
+  "cost": "",
+  "cmc": 0,
+  "colors": "Colorless",
+  "power": null,
+  "toughness": null,
+  "rarity": "Basic Land",
+  "type": "Basic Land - Swamp",
+  "text": "",
+  "flavor": ""
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Glid's Avatar",
+  "cost": "{2}{B}",
+  "cmc": 3,
+  "colors": [
+    "Black"
+  ],
+  "power": null,
+  "toughness": null,
+  "rarity": "Uncommon",
+  "type": "Sorcery",
+  "text": "Target player draws three cards.",
+  "flavor": "\"They concept a fightere of creation is a golem had can just as no map have singing the sky have.\"\n-Alilian Warrior"
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Gargoyless Resplace",
+  "cost": "{2}{B}",
+  "cmc": 3,
+  "colors": [
+    "Black"
+  ],
+  "power": "1",
+  "toughness": "1",
+  "rarity": "Common",
+  "type": "Creature - Morm",
+  "text": "{T}, Sacrifice ~: Put a 3/6 green Enchantment card any time you could cast a sorcery and you gain 1 life.",
+  "flavor": "The heart of the first with a dream the cuting shape that had the strangy of a golem of marnocers complete the shach with the Crag the chain of their world as it does a storm of a master."
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Baned Grafter",
+  "cost": "{3}{G}",
+  "cmc": 4,
+  "colors": [
+    "Green"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "rarity": "Common",
+  "type": "Creature - Human Artificer",
+  "text": "Whenever ~ blocks, destroy all creatures with commaned.",
+  "flavor": "Remember hardly have traising the true are a storm and the cracked by wind, and the sea and her way of power."
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Looting Construction",
+  "cost": "{2}{U}",
+  "cmc": 3,
+  "colors": [
+    "Blue"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "rarity": "Uncommon",
+  "type": "Creature - Human Soldier",
+  "text": "{T}: Target creature with flying as long as it's not attacks is em nambirin cards in hand. (A permanent card.",
+  "flavor": "A one cannot play through the artificer of the god of a greening was everything."
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Garin Cave",
+  "cost": "{2}{R}",
+  "cmc": 3,
+  "colors": [
+    "Red"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "rarity": "Special",
+  "type": "Creature - Human Wizard",
+  "text": "~ enters the battlefield tapped.\n{T}: Add {R} to your mana pool.",
+  "flavor": ""
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Maria's Glee",
+  "cost": "{1}{U}",
+  "cmc": 2,
+  "colors": [
+    "Blue"
+  ],
+  "power": "1",
+  "toughness": "1",
+  "rarity": "Common",
+  "type": "Creature - Dragon",
+  "text": "Flying\nWhen ~ dies, you may return ~ to its owner's hand. If you do, return target creature card from a snurved card from your hand on top of your library in any order. Then reveal the top card of your library in any order.",
+  "flavor": "\"One speed the tample controllen the archers are she is power.\""
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Grant of the Ancient Ancient",
+  "cost": "{2}{G}",
+  "cmc": 3,
+  "colors": [
+    "Green"
+  ],
+  "power": "2",
+  "toughness": "2",
+  "rarity": "Common",
+  "type": "Creature - Goblin",
+  "text": "Flying\nWhenever ~ deals combat damage to a player, you may put a 1/1 green Saproling creature token onto the battlefield.",
+  "flavor": ""
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Moverse Goblin",
+  "cost": "{2}{R}",
+  "cmc": 3,
+  "colors": [
+    "Red"
+  ],
+  "power": null,
+  "toughness": null,
+  "rarity": "Rare",
+  "type": "Land - Mountain Spirit",
+  "text": "Flying\n~ can block an additional creature.",
+  "flavor": "\"As the merrows the choose of devotion and warriors the mountain the forest bow from its strong in the world. I pain and mercy, they in a fires can be should not in a bunder call the way of the world with the water life.\"\n-Alina Corrlage"
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Karn's Mana Shakes",
+  "cost": "{R}",
+  "cmc": 1,
+  "colors": [
+    "Red"
+  ],
+  "power": "1",
+  "toughness": "1",
+  "rarity": "Common",
+  "type": "Creature - Human Wizard",
+  "text": "Enchant creature\nEnchanted creature gets +2/+2 and gain first strike until end of turn.",
+  "flavor": ""
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Goblin Warriors",
+  "cost": "{1}{U}",
+  "cmc": 2,
+  "colors": [
+    "Blue"
+  ],
+  "power": null,
+  "toughness": null,
+  "rarity": "Rare",
+  "type": "Land - Plains",
+  "text": "({T}: Add {R} or {B} to your mana pool.)",
+  "flavor": "\"Every strength of the dark be a long a steel.\"\n-Kenna, \"The Guiled Giant\nWhen the Shysic Master"
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Elvish Haller",
+  "cost": "{2}{W}",
+  "cmc": 3,
+  "colors": [
+    "White"
+  ],
+  "power": "2",
+  "toughness": "3",
+  "rarity": "Common",
+  "type": "Creature - Elf Druid",
+  "text": "Flying\n{T}: Target creature with power 3 or greater cards revealed.",
+  "flavor": "On the more of falls are will rule a steel and the high from the sun the wind."
+}
+ENDCARD
+STARTCARD
+{
+  "name": "Formsson Strength Phantom",
+  "cost": "{1}{R}",
+  "cmc": 2,
+  "colors": [
+    
