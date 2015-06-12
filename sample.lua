@@ -3,7 +3,7 @@
 
 This file samples characters from a trained model
 
-Code is based on implementation in 
+Code is based on implementation in
 https://github.com/oxford-cs-ml-2015/practical6
 
 ]]--
@@ -57,12 +57,12 @@ local ivocab = {}
 for c,i in pairs(vocab) do ivocab[i] = c end
 
 -- initialize the rnn state
-local current_state
+local current_state = {}
 local model = checkpoint.opt.model
 
 print('creating an LSTM...')
 local num_layers = checkpoint.opt.num_layers
-current_state = {}
+
 for L=1,checkpoint.opt.num_layers do
     -- c and h for all layers
     local h_init = torch.zeros(1, checkpoint.opt.rnn_size)
