@@ -11,7 +11,9 @@ local state_size
 local seed_text = "ENDCARD\n"
 local prediction
 
-local M = {}
+local M = {
+    seed = 0
+}
 
 function M.start(model, seed)
     ivocab = {}
